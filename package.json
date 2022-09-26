@@ -1,0 +1,27 @@
+{
+  "name": "xxtouch-alert",
+  "version": "3.0.1",
+  "description": "Provide a simple alert(1) to Frida in iOS application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "frida-compile index -o test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XXTouchNG/xxtouch-alert.git"
+  },
+  "keywords": [
+    "frida",
+    "xxtouch"
+  ],
+  "author": "Lessica",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XXTouchNG/xxtouch-alert/issues"
+  },
+  "homepage": "https://github.com/XXTouchNG/xxtouch-alert#readme",
+  "dependencies": {
+    "frida-compile": "^16.1.0",
+    "xxtouch-proc": "git+https://github.com/XXTouchNG/xxtouch-proc.git"
+  }
+}
