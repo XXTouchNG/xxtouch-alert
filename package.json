@@ -3,6 +3,7 @@
   "version": "3.0.1",
   "description": "Provide a simple alert(1) to Frida in iOS application.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "frida-compile index -o test.js"
   },
