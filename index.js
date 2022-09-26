@@ -1,4 +1,4 @@
-import { send } from 'xxtouch-proc';
+import proc from 'xxtouch-proc';
 const UIAlertController = ObjC.classes.UIAlertController;
 const UIAlertAction = ObjC.classes.UIAlertAction;
 const UIApplication = ObjC.classes.UIApplication;
@@ -15,7 +15,7 @@ const alert = (message) => {
             retType: 'void',
             argTypes: ['object'],
             implementation: function () {
-                send(0);
+                proc.send(0);
             }
         });
         var defaultAction = UIAlertAction
